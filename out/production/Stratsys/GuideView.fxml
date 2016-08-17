@@ -1,0 +1,20 @@
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Text?>
+<?import javafx.scene.control.TextField?>
+<BorderPane fx:controller="ClientController" xmlns:fx="http://javafx.com/fxml">
+    <center>
+        <VBox>
+            <VBox fx:id="lengthVBox">
+                <Text text="Längd"/>
+                <TextField></TextField>
+            </VBox>
+            <VBox fx:id="ageVBox">
+              <Text text="Ålder"></Text>
+            </VBox>
+            <VBox fx:id="styleVBox">
+
+            </VBox>
+        </VBox>
+    </center>
+</BorderPane>
