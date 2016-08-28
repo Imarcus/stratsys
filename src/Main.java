@@ -27,9 +27,9 @@ public class Main extends Application {
             e.printStackTrace();
         }
 
-        Scene scene = new Scene(root, 300, 275);
+        Scene scene = new Scene(root, 500, 350);
 
-        stage.setTitle("FXML Welcome");
+        stage.setTitle("Skidguide");
         stage.setScene(scene);
         stage.show();
     }
